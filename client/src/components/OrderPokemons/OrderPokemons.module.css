@@ -1,0 +1,31 @@
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s, transform 0.2s;
+    cursor: pointer;
+  }
+  
+  select:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  select:active {
+    transform: translateY(0);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .orderContainer {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    margin-bottom: 20px; /* Agregado para dar espacio entre los selects y las cards */
+  }
+  
+  .selectGroup {
+    display: flex;
+    flex-direction: column;
+  }
